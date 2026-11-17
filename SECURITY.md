@@ -4,7 +4,7 @@
 
 **Please do not report security vulnerabilities through public issues or discussions.**
 
-Report privately using GitHub's **[Report a vulnerability](../../security/advisories/new)** form (Security tab → Advisories). Alternatively, contact us via <https://velovane.cc/support.html> and mark the message "Security".
+Report privately using GitHub's **[Report a vulnerability](../../security/advisories/new)** form (Security tab → Advisories). Alternatively, email [support@velovane.cc](mailto:support@velovane.cc) with "Security" in the subject.
 
 Please include:
 

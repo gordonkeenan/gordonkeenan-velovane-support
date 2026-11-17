@@ -12,7 +12,7 @@ Public support hub for **[Velo Vane](https://velovane.cc/)**, route-specific wea
 | Report a bug | [New bug report](../../issues/new?template=bug_report.yml) |
 | Suggest a feature | [New feature request](../../issues/new?template=feature_request.yml) |
 | Ask a question or share an idea | [Discussions](../../discussions) |
-| Get help with billing or a subscription | [Support page](https://velovane.cc/support.html) |
+| Get help with billing or a subscription | [Support page](https://velovane.cc/support.html) or [support@velovane.cc](mailto:support@velovane.cc) |
 | Report a security issue | See [SECURITY.md](SECURITY.md) — **do not open a public issue** |
 
 Before opening an issue, please [search existing issues](../../issues?q=is%3Aissue) to avoid duplicates. Add a 👍 reaction to an existing issue instead of commenting "+1".
@@ -25,7 +25,7 @@ Issues here are **public**. Please do not post:
 - Email addresses, receipts, order IDs or payment details
 - Exported route files (GPX/FIT/TCX) that reveal where you live or work
 
-For anything personal, use the [support page](https://velovane.cc/support.html) instead.
+For anything personal, email [support@velovane.cc](mailto:support@velovane.cc) instead.
 
 ## How issues are handled
 
