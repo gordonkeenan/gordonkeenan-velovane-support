@@ -1,0 +1,98 @@
+name: Bug report
+description: Something in Velo Vane isn't working as expected.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. **This issue will be public** — do not include addresses, email addresses, receipts or route files.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - iOS
+        - Android
+        - Web
+    validations:
+      required: true
+  - type: input
+    id: app-version
+    attributes:
+      label: App version
+      description: Shown at the bottom of Settings.
+      placeholder: e.g. 1.5.2
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and OS version
+      placeholder: e.g. iPhone 15, iOS 26.1 / Pixel 8, Android 16 / Safari 19
+    validations:
+      required: true
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Plan
+      options:
+        - Free
+        - Pro
+        - Not sure
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Dashboard / weather
+        - Commute / route
+        - Clothing recommendations
+        - Widget
+        - Ride log
+        - Route import (GPX/FIT/TCX)
+        - Onboarding / locations
+        - Purchase / restore
+        - Settings / theme
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Tap …
+        3. See …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots or recordings
+      description: Optional. Please crop or blur any map, address or personal details.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this hasn't been reported.
+          required: true
+        - label: I've removed personal information (addresses, emails, receipts, route files).
+          required: true

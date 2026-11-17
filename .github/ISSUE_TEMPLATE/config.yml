@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: FAQ
+    url: https://velovane.cc/faq.html
+    about: Check common questions first.
+  - name: Questions & ideas (Discussions)
+    url: https://github.com/OWNER/REPO/discussions
+    about: Ask how something works or share ideas with other riders.
+  - name: Billing, subscriptions & private support
+    url: https://velovane.cc/support.html
+    about: Anything involving purchases, personal data or your account.
+  - name: Security vulnerability
+    url: https://github.com/OWNER/REPO/security/advisories/new
+    about: Report security issues privately — never in a public issue.

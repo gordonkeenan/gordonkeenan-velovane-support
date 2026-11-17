@@ -1,0 +1,15 @@
+# Synced by .github/workflows/labels.yml
+- { name: bug,            color: d73a4a, description: "Something isn't working" }
+- { name: enhancement,    color: a2eeef, description: "Feature request or improvement" }
+- { name: question,       color: d876e3, description: "Question about using the app" }
+- { name: needs-triage,   color: fbca04, description: "Awaiting review" }
+- { name: needs-info,     color: fef2c0, description: "Waiting for more information from the reporter" }
+- { name: confirmed,      color: 0e8a16, description: "Reproduced / accepted" }
+- { name: duplicate,      color: cfd3d7, description: "Already reported" }
+- { name: wontfix,        color: ffffff, description: "Will not be addressed" }
+- { name: fixed-in-release, color: 1d76db, description: "Fix shipped in an app update" }
+- { name: ios,            color: 000000, description: "iOS app" }
+- { name: android,        color: 3ddc84, description: "Android app" }
+- { name: web,            color: 0366d6, description: "Web app" }
+- { name: widget,         color: c5def5, description: "Home screen widget" }
+- { name: billing,        color: e99695, description: "Purchases and subscriptions" }
